@@ -23,3 +23,8 @@ git checkout -- 文件名；意思就是，把readme.txt文件在工作区的修
  另一种情况是删错了，因为版本库里还有呢，所以可以很轻松地把误删的文件恢复到最新版本
  git checkout -- 文件名
  注意：从来没有被添加到版本库就被删除的文件，是无法恢复的！
+
+ 要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+关联一个远程库时必须给远程库指定一个名字，origin是默认习惯命名；
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
