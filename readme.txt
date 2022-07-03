@@ -28,3 +28,7 @@ git checkout -- 文件名；意思就是，把readme.txt文件在工作区的修
 关联一个远程库时必须给远程库指定一个名字，origin是默认习惯命名；
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
+
+
+git clone git@github.com:自己的用户名/gitskills.git  这样就能远程克隆仓库
+
