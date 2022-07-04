@@ -44,5 +44,10 @@ git clone git@github.com:自己的用户名/gitskills.git  这样就能远程克
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
-<<<<<<< HEAD
-啊我就到家啊我i多久啊我
+
+小结
+当Git无法自动合并分支时，就必须首先解决冲突。解决冲突后，再提交，合并完成。
+
+解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
+
+用git log --graph命令可以看到分支合并图
