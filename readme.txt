@@ -15,7 +15,8 @@ git checkout -- 文件名；意思就是，把readme.txt文件在工作区的修
 
 场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- 文件名
 
-场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD 文件名，就回到了场景1，第二步按场景1操作。
+场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD 文件名
+就回到了场景1，第二步按场景1操作。
  git checkout -- 文件名 可以丢弃工作区的修改
 
  rm 文件名 可以直接删除文件，但是git版本库中还有你的文件缓存
@@ -24,7 +25,7 @@ git checkout -- 文件名；意思就是，把readme.txt文件在工作区的修
  git checkout -- 文件名
  注意：从来没有被添加到版本库就被删除的文件，是无法恢复的！
 
- 要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+ 要关联一个远程库，使用命令git remote add origin git@<server-name>:path/repo-name.git；
 关联一个远程库时必须给远程库指定一个名字，origin是默认习惯命名；
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改
@@ -43,4 +44,5 @@ git clone git@github.com:自己的用户名/gitskills.git  这样就能远程克
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+<<<<<<< HEAD
 啊我就到家啊我i多久啊我
