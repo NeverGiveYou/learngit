@@ -51,3 +51,4 @@ git clone git@github.com:自己的用户名/gitskills.git  这样就能远程克
 解决冲突就是把Git合并失败的文件手动编辑为我们希望的内容，再提交。
 
 用git log --graph命令可以看到分支合并图
+nwainwaeugvbawebvewauivewauvaweu
