@@ -44,4 +44,4 @@ git clone git@github.com:自己的用户名/gitskills.git  这样就能远程克
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
-
+anfioewuinaweuebawuifbwaeuifbwea
